@@ -1,0 +1,4 @@
+For multiple lines in excel and want to trim the first line only:
+
+=IFERROR(LEFT(B3, SEARCH(CHAR(10),B3)-1), B3)
+
